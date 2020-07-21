@@ -1,10 +1,10 @@
 /*------Start Base CSS------*/
-* {
+.full-tem * {
   margin: 0;
   padding: 0;
 }
 
-body {
+.full-tem {
   font-family: 'Bree Serif', serif;
   background-image: url(https://mbahr-media.de/ebay/template_1/img/background.jpg);
   /* background-color: #00cbdf; */
@@ -13,7 +13,7 @@ body {
   background-size: cover;
 }
 
-img {
+.full-tem img {
   height: auto;
   max-width: 100%;
   border: none;
@@ -24,68 +24,68 @@ html {
   height: 100%;
 }
 
-a,
-a:hover {
+.full-tem a,
+.full-tem a:hover {
   text-decoration: none;
 }
 
-a:focus {
+.full-tem a:focus {
   color: #333;
   text-decoration: none;
 }
 
-a:focus,
-input:focus,
-textarea:focus,
-button:focus {
+.full-tem a:focus,
+.full-tem input:focus,
+.full-tem textarea:focus,
+.full-tem button:focus {
   outline: 0 solid;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.full-tem h1,
+.full-tem h2,
+.full-tem h3,
+.full-tem h4,
+.full-tem h5,
+.full-tem h6 {
   margin-bottom: 15px;
   margin-top: 0;
 }
 
-p {
+.full-tem p {
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.float_left {
+.full-tem .float_left {
   float: left;
 }
 
-.float_right {
+.full-tem .float_right {
   float: right;
 }
 
-.fix:before,
-.fix:after {
+.full-tem .fix:before,
+.full-tem .fix:after {
   content: '';
   display: table;
 }
 
-.fix:after {
+.full-tem .fix:after {
   clear: both;
 }
 
 /*------End Base CSS------*/
 
-.container-fluid {
+.full-tem .container-fluid {
   width: 100%;
 }
-.text-right {
+.full-tem .text-right {
   text-align: right !important;
 }
-.col-md-12 {
+.full-tem .col-md-12 {
   max-width: 100%;
 }
-.col {
+.full-tem .col {
   padding-right: 15px;
   padding-left: 15px;
   width: 46%;
